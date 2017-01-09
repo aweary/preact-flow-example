@@ -2,6 +2,8 @@
 import { h, render } from 'preact'
 
 type AppProps = {
+  // FIXME! This will cause an error right due to line 15 passing a string. Change
+  // this from "number" to "string" and the error goes away.
   greeting: number,
 };
 
