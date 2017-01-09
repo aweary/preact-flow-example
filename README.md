@@ -9,7 +9,7 @@ Clone the repo, then:
 ```
 yarn install
 yarn build
-``
+```
 
 Then open `public/index.html` to see the app running.
 
